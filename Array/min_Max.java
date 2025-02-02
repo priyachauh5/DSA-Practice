@@ -1,6 +1,9 @@
+//Tim complexity-O(nlogn)
+//Space complexity-O(1)
+
 import java.util.*;
 import java.util.Arrays;
-public class minMax{
+public class min_Max{
     public static class Pair{
         int min;
         int max;
