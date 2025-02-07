@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class Chocolate_Distribution_Problem{
     public static int chocolateProblem(int arr[], int m){
         int minDiff=Integer.MAX_VALUE;
