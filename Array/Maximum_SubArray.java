@@ -2,7 +2,6 @@
 //Space complexity: O(1)
 
 import java.util.*;
-
 public class Maximum_SubArray{
     public static int maxSubArray(int arr[]){
         int maxSum=Integer.MIN_VALUE;
