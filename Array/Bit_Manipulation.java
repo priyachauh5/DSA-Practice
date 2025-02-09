@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class Solution {
     public static void main(String args[]) {
         // Convert the position to 0-based by subtracting 1 from i
