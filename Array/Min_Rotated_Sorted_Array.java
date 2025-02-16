@@ -13,7 +13,8 @@ public class Min_Rotated_Sorted_Array{
                 ei=mid;
             }
         }
-        
+
         System.out.println(arr[si]); //when both si==ei
     }
+    
 }
