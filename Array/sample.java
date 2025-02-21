@@ -14,7 +14,6 @@ public class sample{
             }
         }
     }
-
     public static void printArr(char board[][]){
         System.out.println("---chess board-----");
         for(int i=0; i<board.length; i++){
