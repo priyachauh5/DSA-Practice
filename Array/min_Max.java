@@ -4,11 +4,13 @@
 
 import java.util.*;
 import java.util.Arrays;
+
 public class min_Max{
     public static class Pair{
         int min;
         int max;
     }
+    
     public static Pair getMinMax(int arr[], int n){
         Pair minMax=new Pair();
         Arrays.sort(arr);
