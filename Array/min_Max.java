@@ -10,7 +10,6 @@ public class min_Max{
         int min;
         int max;
     }
-    
     public static Pair getMinMax(int arr[], int n){
         Pair minMax=new Pair();
         Arrays.sort(arr);
