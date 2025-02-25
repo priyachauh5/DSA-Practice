@@ -15,6 +15,7 @@ public class min_Max{
         Arrays.sort(arr);
         minMax.min=arr[0];
         minMax.max=arr[n-1];
+        
         return minMax;
     }
     public static void main(String args[]){
