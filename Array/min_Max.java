@@ -18,7 +18,6 @@ public class min_Max{
         
         return minMax;
     }
-    
     public static void main(String args[]){
         int arr[]={1000, 11, 445, 1, 330, 3000};
         int arr_size=arr.length;
