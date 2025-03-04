@@ -18,7 +18,6 @@ public class Word_Search {
         if (i < 0 || i >= board.length || j < 0 || j >= board[0].length || board[i][j] != word.charAt(k) || board[i][j] == '*') {
             return false; // Out of bounds or character doesn't match
         }
-
         char temp = board[i][j]; // Store the character
         board[i][j] = '*'; // Mark the current cell as visited
 
