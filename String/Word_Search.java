@@ -15,7 +15,6 @@ public class Word_Search {
         if (k == word.length()) {
             return true; // Word found
         }
-
         if (i < 0 || i >= board.length || j < 0 || j >= board[0].length || board[i][j] != word.charAt(k) || board[i][j] == '*') {
             return false; // Out of bounds or character doesn't match
         }
