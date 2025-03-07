@@ -21,7 +21,6 @@ public class Word_Search {
         
         char temp = board[i][j]; // Store the character
         board[i][j] = '*'; // Mark the current cell as visited
-
         // Explore all directions: up, down, left, right
         boolean found = backtrack(board, word, i - 1, j, k + 1) || // up
                         backtrack(board, word, i + 1, j, k + 1) || // down
