@@ -14,7 +14,6 @@ public class FirstUniqueCharacterInAString{
                 return i;
             }
         }
-        
         return -1;
     }
     public static void main(String args[]){
