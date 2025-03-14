@@ -10,6 +10,7 @@ public class set_Matrix_Zero{
             }
         }
     }
+    
     public static void main(String args[]){
         int matrix[][]={1,2,3,4},{2,3,6,0};
     }
