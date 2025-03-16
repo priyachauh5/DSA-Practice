@@ -5,7 +5,6 @@ public class set_Matrix_Zero{
             for(int j=0; j<matrix[0].length; j++){
                 if(matrix[i][j]==0){
 
-                    
                 }
             }
         }
