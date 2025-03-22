@@ -7,7 +7,6 @@ public class AddDigit{
                 sum+=rem;
                 num=num/10;
             }
-            
             num=sum;
         }
         return num;
