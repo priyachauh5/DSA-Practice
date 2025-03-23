@@ -11,6 +11,7 @@ public class AddDigit{
         }
         return num;
     }
+    
     public static void main(String args[]){
         int  num=38;
         System.out.print(AddDigit(num));
