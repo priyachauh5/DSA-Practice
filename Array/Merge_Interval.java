@@ -23,7 +23,6 @@ public class Merge_Intercal{
         return result.toArray(new int[result.size()][]);
     }
     public static void main(String args[]){
-        
         int intervals[][] = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
         int[][] mergedIntervals = mergeInterval(intervals);
         System.out.println(Arrays.deepToString(mergedIntervals));
