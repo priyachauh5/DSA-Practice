@@ -4,7 +4,6 @@ public class Solution {
     public static void main(String args[]) {
         // Convert the position to 0-based by subtracting 1 from i
         int position = i - 1;
-        
         // 1. Get the ith bit
         int getBit = (num >> position) & 1;
         
